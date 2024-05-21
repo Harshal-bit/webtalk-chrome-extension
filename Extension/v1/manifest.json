@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "WebChat: Chat With WebPages",
+    "version": "1.0",
+    "permissions": ["http://localhost:8000/", "tabs"],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}

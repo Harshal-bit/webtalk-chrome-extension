@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat With Webpages</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5" style="width: 450px;">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">Chat With Webpages</h2>
+        <div class="input-group mb-3">
+          <input type="text" id="userInput" class="form-control" placeholder="Enter text...">
+          <div class="input-group-append">
+            <button id="sendButton" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+        <div class="custom-file mb-3">
+          <input type="file" class="custom-file-input" id="pdfFile" aria-describedby="inputGroupFileAddon01">
+          <label class="custom-file-label" for="pdfFile">Choose PDF file</label>
+        </div>
+        <div id="response"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
